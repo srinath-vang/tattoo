@@ -12,10 +12,12 @@ font-family: 'Roboto', sans-serif;
 
 	padding:10px;
 	color:#fff;
+	font-size:12px;
+	color:#ecf0f1;
 }
 
 .nav{
-	margin-left: 230px;
+	margin-left: 250px;
 }
 
 .tat img {
@@ -36,37 +38,50 @@ font-family: 'Roboto', sans-serif;
 .tel{
 	color:white;
 	margin-top: 60px;
-	font-size: 15px;
+	font-size: 17px;
 	text-align: center;
 
 }
-.fa-facebook-square{
-    color:white;
-	margin-top: 60px;
-	font-size: 100px;
-	
+.fa-facebook{
+	margin-top: 62px;
+	color:black;
+	display:inline-block;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background-color:white;
+	text-align:center;
+	padding:10px;
+  border:1px solid;
 }
+
 .welcome{
-background-image:url("/images/backimg4.jpg");
+background-color:black;
+color:#ecf0f1;
 
-color:white;	
 }
-
+.welcome h2{
+font-weight:600px;
+font-size:35px;
+}
 
 .welcome h1{
- font-size: 30px;
- font-weight: 250;
- font-family: 'Roboto', sans-serif;
+background-color:black;
+color:#ecf0f1;
+font-family: 'Quicksand', sans-serif;
 }
+
 
 .welcome img{
 
 	height:200px;
 	width: 180px;
 }
-.welcome h3{
 
-	margin-top:30px; 
+.artist h2{
+
+font-family: 'Quicksand', sans-serif;	
+
 }
 .icon{
 	padding:5px;
@@ -80,6 +95,13 @@ color:white;
 	
 }
 
+.gallery h2{
+
+font-family: 'Quicksand', sans-serif;
+	
+
+}
+
 .gallery img:hover {
 	
 		opacity:0.5;
@@ -88,15 +110,37 @@ color:white;
 .blog  {
 
 	text-align:center;
-	background-color:#22313f;
+	background-color:black;
 	color:white; 
 }
+
+.blog h1{
+
+font-family: 'Quicksand', sans-serif;	
+
+}
+
+.blog1{
+	
+	background-color:black;
+}
+
+.blog1 img{
+	
+  height:250px;
+	width: 360px;	
+}
+
 
 .contact img {
 	
 	width:100%;
 	height:500px;
 	
+}
+.contact h2{
+	
+	font-family: 'Quicksand', sans-serif;
 }
 .contact{
 	margin-bottom:1px;
@@ -117,9 +161,20 @@ color:white;
 }
 .faceb {
 
-	margin-top: 30%;
+	margin-top: 28%;
+	color:black;
+	display:inline-block;
+	width:50px;
+	height:50px;
 	border-radius:50%;
+	background-color:white;
+	text-align:center;
+	padding:10px;
+  border:1px solid;
+  font-size:20px;
+  
 }
+
 .fimage{
 	margin-left:100px;
 }	
