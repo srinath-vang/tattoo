@@ -42,6 +42,7 @@ font-family: 'Roboto', sans-serif;
 	text-align: center;
 
 }
+
 .fa-facebook{
 	margin-top: 62px;
 	color:black;
@@ -52,7 +53,7 @@ font-family: 'Roboto', sans-serif;
 	background-color:white;
 	text-align:center;
 	padding:10px;
-  border:1px solid;
+    border:1px solid;
 }
 
 .welcome{
@@ -128,8 +129,23 @@ font-family: 'Quicksand', sans-serif;
 .blog1 img{
 	
   height:250px;
-	width: 360px;	
+	width: 360px;
+	 	
 }
+
+.spacer{
+	position: absolute;
+	top :222px;
+	color:white;
+	background-color: #2c3e50;
+	width:95%;
+	padding:7px;
+  opacity:0.8;
+  text-transform:uppercase;
+  font-size:11px;
+}
+
+
 
 
 .contact img {
@@ -170,8 +186,8 @@ font-family: 'Quicksand', sans-serif;
 	background-color:white;
 	text-align:center;
 	padding:10px;
-  border:1px solid;
-  font-size:20px;
+    border:1px solid;
+    font-size:20px;
   
 }
 
@@ -212,6 +228,8 @@ font-family: 'Quicksand', sans-serif;
 	padding:7px;
 	display:inline-block;
 	background-color:#95a5a6;
-   color:white;
+    color:white;
+    position:relative;
+    top: -23px; 
 }
 
