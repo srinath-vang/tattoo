@@ -2,9 +2,9 @@
 font-family: 'Roboto', sans-serif;	
 }
 
-.topnavigation{
-
-	background-color: black;
+.topnavigation {
+   
+	
 	border-radius: 0px;
 	margin-bottom: 0px; 
 }
@@ -17,34 +17,45 @@ font-family: 'Roboto', sans-serif;
 	color:#ecf0f1;
 }
 
-.nav{
-	margin-left: 250px;
+.navbar{
+	
+	background-color: #191919;
+}
+
+.nav {
+	margin-left: 22.5em;
+	
+}
+
+
+.tat {
+	text-align:center;
 }
 
 .tat img {
-     
-	height:150px;
-	width: 200px;
+    height:150px;
+    width: 200px;
 }
 
-.imgtat img{
+.imgtat img {
 
-	height:500px;
+	height:31em;
+	width :93em;
 }
 .header{
 
-	background-color: black;
+ background-color: #191919;
 }
 
 .tel{
 	color:white;
 	margin-top: 60px;
-	font-size: 17px;
-	text-align: center;
-
+   font-size: 17px;
+      	
 }
 
 .fa-facebook{
+	margin-left: 300px;
 	margin-top: 62px;
 	color:black;
 	display:inline-block;
@@ -54,7 +65,6 @@ font-family: 'Roboto', sans-serif;
 	background-color:white;
 	text-align:center;
 	padding:10px;
-    border:1px solid;
 }
 
 .welcome{
@@ -65,12 +75,15 @@ color:#ecf0f1;
 .welcome h2{
 font-weight:600px;
 font-size:35px;
+margin-bottom:0px;
+
 }
 
 .welcome h1{
 background-color:black;
 color:#ecf0f1;
 font-family: 'Quicksand', sans-serif;
+margin-top:0px;
 }
 
 
@@ -79,10 +92,25 @@ font-family: 'Quicksand', sans-serif;
 	height:200px;
 	width: 180px;
 }
+.artist{
+	height:300px;
+}
+.artist img{
+	
+	width:540px;
+	height:400px;
+}
 
+.artist h1{
+
+
+margin-bottom:0px;	
+
+}
 .artist h2{
 
-font-family: 'Quicksand', sans-serif;	
+font-family: 'Quicksand', sans-serif;
+margin-top:0px;	
 
 }
 .icon{
@@ -97,10 +125,16 @@ font-family: 'Quicksand', sans-serif;
 	
 }
 
+.gallery h1{
+
+
+margin-bottom: 0px;	
+
+}
 .gallery h2{
 
 font-family: 'Quicksand', sans-serif;
-	
+margin-top: 0px;	
 
 }
 
@@ -116,9 +150,15 @@ font-family: 'Quicksand', sans-serif;
 	color:white; 
 }
 
+.blog h2{
+
+margin-bottom:0px;	
+
+}
 .blog h1{
 
 font-family: 'Quicksand', sans-serif;	
+margin-top:0px;
 
 }
 
@@ -129,8 +169,8 @@ font-family: 'Quicksand', sans-serif;
 
 .blog1 img{
 	
-  height:250px;
-	width: 360px;
+    height:250px;
+	width: 350px;
 	 	
 }
 
@@ -141,9 +181,9 @@ font-family: 'Quicksand', sans-serif;
 	background-color: #2c3e50;
 	width:95%;
 	padding:7px;
-  opacity:0.8;
-  text-transform:uppercase;
-  font-size:11px;
+    opacity:0.8;
+    text-transform:uppercase;
+    font-size:11px;
 }
 
 
@@ -151,23 +191,28 @@ font-family: 'Quicksand', sans-serif;
 
 .contact img {
 	
-	width:100%;
+	width:541px;
 	height:500px;
+	
+}
+.contact h1{
+ margin-bottom:0px;	
 	
 }
 .contact h2{
 	
 	font-family: 'Quicksand', sans-serif;
+	margin-top:0px;
 }
 .contact{
-	margin-bottom:1px;
+	margin-bottom:0px;
 	}
 
 .cont{
 	background-color:black;
 }
-.cont img{
-    margin-left:100px;
+.footer img{
+    margin-left:0px;
 	width:50%;
 	height:200px;
 }
@@ -177,7 +222,7 @@ font-family: 'Quicksand', sans-serif;
 	margin-top: 30%;
 }
 .faceb {
-
+    margin-left: 300px;
 	margin-top: 28%;
 	color:black;
 	display:inline-block;
@@ -189,48 +234,61 @@ font-family: 'Quicksand', sans-serif;
 	padding:10px;
     border:1px solid;
     font-size:20px;
-  
+    
+}
+
+.bottom h5{
+	
+	font-size : 18px;
+}
+.cont {
+	background-color:#191919;
+	
 }
 
 .fimage{
-	margin-left:100px;
+	margin-left:300px;
+	
 }	
 
 .test {
-	
+	margin-top:100px;
 	text-align:center;
 	color:white;
 	background-color:black;
-	
+	height:230px;
 }
 .test h1{
-	 font-size:25px;
+	 margin-bottom:0px; 
+	 font-size:30px;
 }
 .test p {
 	font-family: 'Dancing Script', cursive;
-	font-size:19px;
+	font-size:22px;
 	color:#ecf0f1;
+	margin-top:5px;
 }
 
 .test2{
 	font-family: 'Poiret One', cursive;
 	font-weight:5px;
     font-size:100px;
+    margin-top:0px;
 }
 .test1{
-	font-size:8px;
+	font-size:9px;
 }
 
 .book h4{
 
-	font-size:10px;
-	margin-left:750px;
+	font-size:12px;
+	margin-left:800px;
 	border:1px solid;
-	padding:7px;
+	padding:9px;
 	display:inline-block;
 	background-color:#95a5a6;
     color:white;
     position:relative;
-    top: -23px; 
+    top: -30px; 
 }
 
